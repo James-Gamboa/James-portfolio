@@ -292,7 +292,7 @@ h3 {
 }
 
 .SkillsGrid img:hover {
-  filter: drop-shadow(0 0 1rem var(--primary));
+  @apply [filter:drop-shadow(0_0_1rem_var(--primary))];
 }
 
 .form-item {
