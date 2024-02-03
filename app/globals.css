@@ -22,7 +22,6 @@ img {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -100,8 +99,7 @@ h3 {
 }
 
 .main-menu {
-  @apply ml-0 my-0;
-  list-style: none;
+  @apply ml-0 my-0 list-none;
 }
 
 @media screen and (min-width: 960px) {
@@ -128,13 +126,12 @@ h3 {
 
 @media screen and (min-width: 960px) {
   .main-nav {
-    @apply static h-auto w-auto pt-0;
-    background: transparent;
+    @apply static h-auto w-auto pt-0 bg-transparent;
   }
 }
 
 .main-nav.show {
-  @apply pt-8 right-0;
+  @apply pt-8 right-0 absolute;
 }
 
 .main-menu-toggle {
@@ -171,9 +168,11 @@ h3 {
   }
 }
 
-.main-section-content {
-  @apply text-[1.65rem] text-center text-[color:var(--letter-color)] px-[1em];
-  text-shadow: 1px 1px 2px #ccc;
+@layer components {
+  .main-section-content {
+    @apply text-[1.65rem] text-center text-[var(--letter-color)] px-[1em];
+    text-shadow: 1px 1px 2px #ccc;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -197,7 +196,7 @@ h3 {
 }
 
 .button:hover {
-  filter: drop-shadow(0 0 0.2em #ccc);
+  @apply filter drop-shadow-md text-gray-700;
 }
 
 .about-me {
@@ -213,7 +212,7 @@ h3 {
 }
 
 .grid-container img:hover {
-  filter: none;
+  @apply filter-none;
 }
 
 @media screen and (min-width: 960px) {
@@ -233,8 +232,7 @@ h3 {
 
 .flex-container-2 ul,
 .aboutMeContainer ul {
-  @apply m-0 p-0;
-  list-style: none;
+  @apply m-0 p-0 list-none;
 }
 
 .flex-container-2 li,
@@ -252,7 +250,7 @@ h3 {
 
 .flex-container-2 img:hover,
 .aboutMeContainer img:hover {
-  filter: none;
+  @apply filter-none;
 }
 
 @media screen and (min-width: 600px) {
