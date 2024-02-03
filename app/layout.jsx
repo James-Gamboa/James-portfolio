@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"/>
         <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"/>
       </head>
-      <body className="font-main"> {children} </body>
+      <body> {children} </body>
     </html>
   );
 }
