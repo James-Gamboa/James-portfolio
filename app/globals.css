@@ -1,3 +1,14 @@
+@tailwind components;
+
+@layer components {
+  .scale-120 {
+    transform: scale(1.2);
+  }
+  .scale-card {
+    transform: scale(1.1);
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -80,7 +91,7 @@ h3 {
 }
 
 .main-menu__item {
-  @apply transition-transform duration-[0.3s] p-4 hover:scale-[1.2];
+  @apply transition-transform duration-[0.3s] p-4 hover:scale-120;
 }
 
 .main-menu__link {
@@ -88,7 +99,7 @@ h3 {
 }
 
 .main-logo img {
-  @apply flex h-14 transition-transform duration-[0.3s] ml-8 mt-[0.3em] hover:scale-[1.2];
+  @apply flex h-14 transition-transform duration-[0.3s] ml-8 mt-[0.3em] hover:scale-120;
 }
 
 .main-nav {
@@ -149,7 +160,7 @@ h3 {
 }
 
 .button {
-  @apply text-center bg-[color:var(--primary)] text-[color:var(--button-color)] will-change-[filter_background-color] transition-[filter] duration-[0.3s,background-color] delay-[0.3s] mb-4 p-[1em] rounded-[0.3em] border-[none] hover:text-[color:var(--letter-color)] hover:bg-[color:var(--bg-color)] hover:[filter:drop-shadow(0_0_0.2em_#ccc)];
+  @apply text-center bg-[color:var(--primary)] text-[color:var(--button-color)] will-change-[filter_background-color] transition-[filter] duration-[0.2s,background-color] delay-[0.1s] mb-4 p-[1em] rounded-[0.3em] border-[none] hover:text-[color:var(--letter-color)] hover:bg-[color:var(--bg-color)] hover:[filter:drop-shadow(0_0_0.2em_#ccc)];
 }
 
 .about-me {
@@ -161,11 +172,11 @@ h3 {
 }
 
 .grid-container img {
-  @apply h-64 order-1 shadow-[1px_1px_5px_#ccc] grayscale-[1] transition-[filter] duration-[0.2s] rounded-[50%] hover:[filter:none];
+  @apply h-64 order-1 shadow-[1px_1px_5px_#ccc] filter grayscale duration-200 rounded-full transition opacity-25;
 }
 
 .grid-container img:hover {
-  @apply filter-none;
+  @apply opacity-100;
 }
 
 @media screen and (min-width: 960px) {
@@ -198,12 +209,11 @@ h3 {
 }
 
 .aboutMeContainer img {
-  @apply w-[30%] max-w-full h-auto shadow-[2px_2px_3px_#ccc] grayscale-[1] transition-[filter] duration-[0.2s] rounded-[30%];
+  @apply w-[30%] max-w-full h-auto shadow-[2px_2px_3px_#ccc] grayscale-[1] transition-[filter] duration-[0.2s] rounded-[30%] opacity-25;
 }
 
-.flex-container-2 img:hover,
-.aboutMeContainer img:hover {
-  @apply filter-none;
+.aboutMeContainer img {
+  @apply hover:opacity-100;
 }
 
 @media screen and (min-width: 600px) {
@@ -248,7 +258,7 @@ h3 {
 }
 
 .project-card {
-  @apply bg-[color:var(--bg-color)] shadow-[1px_1px_2px_#CCC] will-change-transform transition-transform duration-[0.3s] rounded-[0.7rem] hover:scale-110;
+  @apply bg-[color:var(--bg-color)] shadow-[1px_1px_2px_#CCC] will-change-transform transition-transform duration-[0.3s] rounded-[0.7rem] hover:scale-card;
 }
 
 .project-card .card-banner {
