@@ -81,21 +81,21 @@ const projects = [
         "id": 10,
         "image": P10Img,
         "title": "James Bank" ,
-        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "description": "A landing page crafted to demonstrate proficiency in Next.js and Tailwind CSS, featuring dynamic animations powered by Frame Motion",
         "link": "https://landing-page-bank-kappa.vercel.app/"
     },
     {
         "id": 11,
         "image": P11Img,
         "title": "Fylo Page" ,
-        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "description": "A responsive landing page designed to showcase expertise in Next.js and Tailwind CSS.",
         "link": "https://fylo-landing-page-ten-peach.vercel.app/"
     },
     {
         "id": 12,
         "image": P12Img,
         "title": "Web Studio" ,
-        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "description": "A modern web studio landing page built to highlight proficiency in Next.js and Tailwind CSS.",
         "link": "https://tailwind-landing-page-ecru-three.vercel.app/"
     },
 ];
