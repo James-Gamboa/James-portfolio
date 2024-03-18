@@ -9,6 +9,9 @@ import P6Img from "../../public/img//projects/loopstudios-page.png";
 import P7Img from "../../public/img//projects/events-site-page.png";
 import P8Img from "../../public/img//projects/landing-page-manage.png";
 import P9Img from "../../public/img//projects/contraluz-page.png";
+import P10Img from "../../public/img//projects/landing-page-bank.png";
+import P11Img from "../../public/img//projects/fylo-landig-page.png";
+import P12Img from "../../public/img//projects/landig-page-tailwind.png";
 
 const projects = [
     {   
@@ -73,6 +76,27 @@ const projects = [
         "title": "Contraluz" ,
         "description": "During my final project at CETAV, I collaborated with a real client to develop and launch an ecommerce for selling paints using the Shopify platform",
         "link": "https://www.contraluzcr.com/"
+    },
+    {
+        "id": 10,
+        "image": P10Img,
+        "title": "James Bank" ,
+        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "link": "https://landing-page-bank-kappa.vercel.app/"
+    },
+    {
+        "id": 11,
+        "image": P11Img,
+        "title": "Fylo Page" ,
+        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "link": "https://fylo-landing-page-ten-peach.vercel.app/"
+    },
+    {
+        "id": 12,
+        "image": P12Img,
+        "title": "Web Studio" ,
+        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "link": "https://tailwind-landing-page-ecru-three.vercel.app/"
     },
 ];
 
