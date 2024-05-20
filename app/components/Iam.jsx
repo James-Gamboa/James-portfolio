@@ -13,7 +13,7 @@ function Iam() {
                     <li>James Guevara Gamboa</li>
                     <li>I am from Costa Rica - Heredia </li>
                     <li>Born November 8, 2000</li>
-                    <li className="floating"><Link href="https://drive.google.com/file/d/100WBLby4JOh-BKLA41xQ0BlUejoTom68/view?usp=sharing" target={"_blank"}>CV</Link></li>
+                    <li className="floating"><Link href="https://drive.google.com/file/d/1HcIyCBmpT1dS9F17mlA-j4DoLEfSARTD/view?usp=sharing" target={"_blank"}>CV</Link></li>
                 </ul>
             </div>
         </div>
