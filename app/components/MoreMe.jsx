@@ -6,10 +6,13 @@ function MoreMe() {
           <h1 className="title">About me</h1>
           <div className="flex-container-2">
             <p>
-              I started studying programming in 2021. Since then, I have
-              completed different courses on renowned platforms such as Udemy and FreeCodeCamp.
-              and FreeCodeCamp. I have also developed projects, such as a
-              Pokédex and a recreation of the Coca-Cola website, among others.
+            Since I entered the world of programming in 2021, I have been an avid learner. 
+            I graduated as a "Technician in web design and development" at the Center for Technology and Visual Arts (CETAV) 
+            I took several courses on platforms such as Udemy , Frontend Masters and FreeCodeCamp , I have applied my knowledge in projects such as a Pokédex , 
+            a recreation of Coca-Cola's website ,Audiophile , an e-commerce platform for audiophiles, 
+            and Travel Haven, an Airbnb clone. In addition, 
+            I have collaborated in innovative projects such as "Human Brush".
+            My passion for programming and my commitment to excellence continue to drive me to explore new horizons and challenges in this exciting field.
             </p>
           </div>
         </div>

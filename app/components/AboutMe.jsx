@@ -15,13 +15,7 @@ function AboutMe() {
                 every day to expand my knowledge and face challenges that test my skills.
                 challenges that test my skills.
               </p>
-              <p>
-                I am from Costa Rica, I am currently 23 years old and I am looking for my first work experience.
-                looking for my first work experience. While I wait for this
-                this opportunity comes, I find myself working on my knowledge and
-                knowledge and facing challenges that put my skills to the test.
-                skills.
-              </p>
+              <p>I am from Costa Rica and I am currently 23 years old. While waiting for new job opportunities, I dedicate myself to strengthen my knowledge and face challenges that test my skills.</p>
               <p>
                 <em>My next goal is to learn about mobile development.</em>
               </p>

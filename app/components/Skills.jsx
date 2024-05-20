@@ -25,6 +25,8 @@ function Skills() {
                     <Image width={400} height={200} src="/img/icons-language/shopify.png" alt="Shopify" />
                     <Image width={400} height={150} src="/img/icons-language/Tailwind-Css.png" alt="Tailwind Css" />
                     <Image width={400} height={150} src="/img/icons-language/GraphQL.png" alt="GraphQL" />
+                    <Image width={400} height={150} src="/img/icons-language/typescript.png" alt="Typescript" />
+                    <Image width={400} height={150} src="/img/icons-language/wordpress.jpg" alt="Wordpress" />
                 </div>
             </section>
         </>
