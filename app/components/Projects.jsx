@@ -120,16 +120,16 @@ const projects = [
     {
         "id": 15,
         "image": P15Img,
-        "title": "Dalio| Digital Agency" ,
-        "description": "A website from dalio a digital agency to showcase the experience using Next.js and Tailwind CSS.",
-        "link": "https://daliotailwind.vercel.app/"
+        "title": "Biccas" ,
+        "description": "A Biccas website to showcase the experience using Html flexbox and is responsive for mobile",
+        "link": "https://james-gamboa.github.io/Biccas/"
     },
     {
         "id": 16,
         "image": P16Img,
-        "title": "Biccas" ,
-        "description": "Trivia game web page created using Vite and React for a hands-on practice project",
-        "link": "https://james-gamboa.github.io/Biccas/"
+        "title": "Dalio | Digital Agency" ,
+        "description": "A website from dalio a digital agency to showcase the experience using Next.js and Tailwind CSS",
+        "link": "https://daliotailwind.vercel.app"
     },
     {
         "id": 17,
