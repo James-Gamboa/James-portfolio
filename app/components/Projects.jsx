@@ -36,9 +36,9 @@ const projects = [
     {
         "id": 3,
         "image": P3Img,
-        "title": " Travel Destinies" ,
+        "title": " Travel Haven" ,
         "description": "A fully functional Airbnb-like clone built with the latest technology in the field of web development",
-        "link": "https://james-gamboa.github.io/Travel-Destinies/"
+        "link": "https://james-gamboa.github.io/Travel-Haven/"
     },
     {
         "id": 4,
