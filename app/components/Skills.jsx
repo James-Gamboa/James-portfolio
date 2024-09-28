@@ -27,6 +27,9 @@ function Skills() {
                     <Image width={400} height={150} src="/img/icons-language/GraphQL.png" alt="GraphQL" />
                     <Image width={400} height={150} src="/img/icons-language/typescript.png" alt="Typescript" />
                     <Image width={400} height={150} src="/img/icons-language/wordpress.jpg" alt="Wordpress" />
+                    <Image width={400} height={180} src="/img/icons-language/elementor.png" alt="Elementor" />
+                    <Image width={400} height={150} src="/img/icons-language/woocommerce.png" alt="Woocommerce" />
+                    <Image width={400} height={100} src="/img/icons-language/astro.png" alt="Astro" />
                 </div>
             </section>
         </>

@@ -9,7 +9,7 @@ function MainBanner() {
                 <span>Frontend Developer, Welcome!</span>
             </div>
             <div className="main-section-img">
-                <Image src="/img/profile-icons/photo-profile.jpg" width={300} height={375} alt="Profile Picture" />
+                <Image src="/img/profile-icons/photo-profile.jpeg" width={300} height={375} alt="Profile Picture" />
             </div>
         </section>
         </>    
